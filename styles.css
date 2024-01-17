@@ -286,3 +286,166 @@ height: 176px;
         padding-left: 30px;
     }
 }
+
+/* Fourth Main */
+
+.choose-container{
+    background: #FFF;
+    margin: auto;
+    width: 1170px;
+height: 800px;
+text-align: center;
+}
+
+.chat1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.chat11{
+    color: rgba(19, 19, 24, 0.70);
+padding-left: 250px;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 643px;
+margin-bottom: 50px;
+}
+
+.div-container1{
+    display: flex;
+    gap: 70px;
+}
+
+.chat2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+.chat3{
+    
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+width: 486px;
+}
+
+.div1{
+    background: #c5fffb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 22px;
+}
+
+.div2{
+    background: #c5fffb;
+    margin: auto;
+    border-radius: 10px;
+    width: 573px;
+height: 160px;
+padding: 20px;
+}
+
+
+.chat22{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.chat33{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+    padding-left: 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .choose-container{
+        background: #FFF;
+        margin: auto;
+        width: 335px;
+    height: 1000px;
+    text-align: center;
+    }
+    
+    .chat1{
+        font-size: 20px;
+    }
+    .chat11{
+        text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    width: 280px;
+    margin-bottom: 10px;
+    margin-left: -210px;
+    }
+    
+    .div-container1{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .chat2{
+        font-size: 12px; 
+    }
+    
+    .chat3{
+        
+        color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 271px;
+    }
+    
+    .div1{
+        background: #c5fffb;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 50px;
+        margin-left: 22px;
+    }
+    
+    .div2{
+        background: #c5fffb;
+        margin: auto;
+        border-radius: 10px;
+        width: 280px;
+    height: 160px;
+    padding: 20px;
+    margin-left: 20px;
+    }
+    
+    
+    .chat22{
+        text-align: center;
+        font-size: 12px; 
+        margin-left: -10px;
+    }
+    
+    .chat33{
+    font-size: 12px;
+    line-height: 26px;
+    width: 271px;
+    margin-left: -35px;}
+}
