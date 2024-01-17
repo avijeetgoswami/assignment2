@@ -708,4 +708,13 @@ flex-shrink: 0;
 .footer{
     background-color: antiquewhite;
     text-align: center;
+
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        background: #FFF;
+        margin: auto;
+        width: 335px;
+    }
 }
