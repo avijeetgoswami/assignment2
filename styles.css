@@ -1,198 +1,191 @@
-
-
-
-
-
-
-
-
-
 /* banner content */
 
-#banner-container{
+#banner-container {
     border-radius: 16px;
-background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
-margin: auto;
-background-repeat: no-repeat;
-background-size: cover;
-width: 1170px;
-height: 500px;
-text-align: center;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    text-align: center;
 
 
 }
 
-#txt1{
+#txt1 {
     color: #FFF;
-font-family: Mulish;
-font-size: 64px;
-font-weight: 800;
-padding-top: 100px;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 100px;
 }
 
-#txt2{
+#txt2 {
     color: #FFF;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-width: 676px;
-padding: 0 250px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 676px;
+    padding: 0 250px;
 }
 
-.input1{
+.input1 {
     display: inline-flex;
-padding: 16px;
-align-items: flex-start;
-gap: 24px;
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 }
+
 #data1 {
     width: 174px;
-height: 45px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-color: rgba(19, 19, 24, 0.50);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-#data2{
+#data2 {
     width: 174px;
-height: 45px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-color: rgba(19, 19, 24, 0.50);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-#data3{
+#data3 {
     width: 174px;
-height: 45px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-color: rgba(19, 19, 24, 0.50);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-#data4{
+#data4 {
     width: 174px;
-height: 45px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #ff4d00;
-color: rgba(255, 255, 255, 0.5);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 800;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #ff4d00;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 600px) {
-    .input1{
+    .input1 {
         min-width: auto;
         min-height: auto;
         flex-direction: column;
 
     }
 
-    #banner-container{
-    background-size: cover;
-    width: 335px;
-height: 483px;
-    text-align: center;}
-
-    #txt1{
-        color: #FFF;
-    font-family: Mulish;
-    font-size: 34px;
-    font-weight: 800;
-    padding-top: 30px;
+    #banner-container {
+        background-size: cover;
+        width: 335px;
+        height: 483px;
+        text-align: center;
     }
-    
-    #txt2{
+
+    #txt1 {
         color: #FFF;
-    font-family: Mulish;
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
-padding: 0 25px;
-width: 280px;
+        font-family: Mulish;
+        font-size: 34px;
+        font-weight: 800;
+        padding-top: 30px;
+    }
+
+    #txt2 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        padding: 0 25px;
+        width: 280px;
     }
 }
 
 /* Second Main */
 
-.tour1{
+.tour1 {
     display: flex;
     gap: 20px;
-background-color: #fff;
-margin: auto;
-width: 1170px;
-height: 500px;
-text-align: center;
-margin-top: 100px;
-margin-bottom: 100px;
+    background-color: #fff;
+    margin: auto;
+    width: 1170px;
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-#tt1{
+#tt1 {
     color: #131318;
-font-family: Mulish;
-font-size: 40px;
-font-weight: 800;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.tt2{
+.tt2 {
     color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-width: 577px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 577px;
 }
 
 
-#img1{
+#img1 {
     width: 540px;
-height: 550px;
+    height: 550px;
 }
 
 @media screen and (max-width: 600px) {
-    .tour1{
+    .tour1 {
         flex-direction: column;
         gap: 10px;
         width: 335px;
         height: 700px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
-    
-    #tt1{
-    font-size: 20px;
+
+    #tt1 {
+        font-size: 20px;
     }
-    
-    .tt2{
-    font-size: 12px;
-    width: 335px;
-    padding-right: 15px;
+
+    .tt2 {
+        font-size: 12px;
+        width: 335px;
+        padding-right: 15px;
     }
-    
-    
-    #img1{
+
+
+    #img1 {
         width: 335px;
         height: 342px;
         padding-left: 20px;
@@ -201,7 +194,7 @@ height: 550px;
 
 
 /* Third Main */
-.container{
+.container {
     text-align: center;
     background: #FFF;
     margin: auto;
@@ -212,32 +205,33 @@ height: 550px;
 
 }
 
-.cht1{
+.cht1 {
     color: #131318;
-font-family: Mulish;
-font-size: 40px;
-font-weight: 800;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.cht2{
+.cht2 {
     color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-padding-bottom: 30px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 30px;
 }
 
-.image-container{
+.image-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.img0{
+.img0 {
     position: relative;
 }
-.img0 .imt{
+
+.img0 .imt {
     position: absolute;
     left: 40%;
     top: 40%;
@@ -247,33 +241,34 @@ padding-bottom: 30px;
 }
 
 @media screen and (max-width:600px) {
-    .image-container{
+    .image-container {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
     }
 
-    .cht1{
-    font-size: 22px;
-    padding-top: 20px;
+    .cht1 {
+        font-size: 22px;
+        padding-top: 20px;
     }
-    
-    .cht2{
-    font-size: 12px;
-    line-height: 16px;
-    padding-bottom: 10px;
+
+    .cht2 {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 10px;
     }
 
     .img2 {
         width: 335px;
-height: 176px;
+        height: 176px;
 
     }
 
-    .img0{
+    .img0 {
         position: relative;
     }
-    .img0 .imt{
+
+    .img0 .imt {
         position: absolute;
         left: 40%;
         top: 40%;
@@ -282,65 +277,66 @@ height: 176px;
         font-size: 20px;
     }
 
-    .container{
+    .container {
         padding-left: 30px;
     }
 }
 
 /* Fourth Main */
 
-.choose-container{
+.choose-container {
     background: #FFF;
     margin: auto;
     width: 1170px;
-height: 800px;
-text-align: center;
+    height: 800px;
+    text-align: center;
 }
 
-.chat1{
+.chat1 {
     color: #131318;
     text-align: center;
     font-family: Mulish;
     font-size: 40px;
     font-weight: 800;
 }
-.chat11{
+
+.chat11 {
     color: rgba(19, 19, 24, 0.70);
-padding-left: 250px;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-width: 643px;
-margin-bottom: 50px;
+    padding-left: 250px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin-bottom: 50px;
 }
 
-.div-container1{
+.div-container1 {
     display: flex;
     gap: 70px;
 }
 
-.chat2{
+.chat2 {
     color: #131318;
     font-family: Mulish;
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal; 
+    line-height: normal;
 }
 
-.chat3{
-    
+.chat3 {
+
     color: #5A5A5D;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-width: 486px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
 }
 
-.div1{
+.div1 {
     background: #c5fffb;
     border-radius: 10px;
     padding: 20px;
@@ -348,24 +344,24 @@ width: 486px;
     margin-left: 22px;
 }
 
-.div2{
+.div2 {
     background: #c5fffb;
     margin: auto;
     border-radius: 10px;
     width: 573px;
-height: 160px;
-padding: 20px;
+    height: 160px;
+    padding: 20px;
 }
 
 
-.chat22{
+.chat22 {
     color: #131318;
     font-family: Mulish;
     font-size: 24px;
     font-weight: 800;
 }
 
-.chat33{
+.chat33 {
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 16px;
@@ -377,75 +373,339 @@ padding: 20px;
 
 
 @media screen and (max-width: 600px) {
-    .choose-container{
+    .choose-container {
         background: #FFF;
         margin: auto;
         width: 335px;
-    height: 1000px;
-    text-align: center;
+        height: 1000px;
+        text-align: center;
     }
-    
-    .chat1{
+
+    .chat1 {
         font-size: 20px;
     }
-    .chat11{
+
+    .chat11 {
         text-align: center;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 10px;
-    width: 280px;
-    margin-bottom: 10px;
-    margin-left: -210px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        width: 280px;
+        margin-bottom: 10px;
+        margin-left: -210px;
     }
-    
-    .div-container1{
+
+    .div-container1 {
         flex-direction: column;
         gap: 10px;
     }
-    
-    .chat2{
-        font-size: 12px; 
+
+    .chat2 {
+        font-size: 12px;
     }
-    
-    .chat3{
-        
+
+    .chat3 {
+
         color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    width: 271px;
+        font-family: Mulish;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        width: 271px;
     }
-    
-    .div1{
+
+    .div1 {
         background: #c5fffb;
         border-radius: 10px;
         padding: 20px;
         margin-bottom: 50px;
         margin-left: 22px;
     }
-    
-    .div2{
+
+    .div2 {
         background: #c5fffb;
         margin: auto;
         border-radius: 10px;
         width: 280px;
-    height: 160px;
-    padding: 20px;
-    margin-left: 20px;
+        height: 160px;
+        padding: 20px;
+        margin-left: 20px;
     }
-    
-    
-    .chat22{
+
+
+    .chat22 {
         text-align: center;
-        font-size: 12px; 
+        font-size: 12px;
         margin-left: -10px;
     }
-    
-    .chat33{
-    font-size: 12px;
+
+    .chat33 {
+        font-size: 12px;
+        line-height: 26px;
+        width: 271px;
+        margin-left: -35px;
+    }
+}
+
+
+/* Tour Package */
+
+#tourct {
+    background: #FFF;
+    margin: auto;
+    width: 1170px;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#tourtext10 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#tourtext20 {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 26px;
-    width: 271px;
-    margin-left: -35px;}
+    width: 643px;
+    padding-left: 250px;
+}
+
+@media screen and(max-width: 600px) {
+    #tourct {
+        background: #FFF;
+    margin: auto;
+    width: 335px;
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    }
+
+    #tourtext10 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        width: 300px;
+        padding-left: -150px;
+    }
+
+    #tourtext20 {
+        text-align: center;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        width: 280px;
+        margin-bottom: 10px;
+        margin-left: -210px;
+
+    }
+
+}
+
+
+
+
+
+
+
+.imgbg1 {
+    position: relative;
+    border-radius: 16px;
+    background: #FFF;
+    margin: auto;
+    width: 1170px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.bacg {
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+}
+
+.imgbgt {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 45%;
+    top: 15%;
+
+    background-color: #ffffff87;
+    width: 500px;
+    border-radius: 16px;
+    padding: 40px;
+    font-family: Mulish;
+}
+
+.ddtext {
+    display: flex;
+    gap: 15px;
+}
+
+.tourt6 {
+    color: #ff5400;
+}
+
+.tbutton {
+    border-radius: 5px;
+    border-color: #ff5400;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+.imgbgt1 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 45%;
+    top: 15%;
+
+    background-color: #ffffff87;
+    width: 500px;
+    border-radius: 16px;
+    padding: 40px;
+    font-family: Mulish;
+}
+
+
+@media screen and (max-width:600px) {
+    .imgbg1 {
+        position: relative;
+        border-radius: 16px;
+        background: #FFF;
+        margin: auto;
+        width: 335px;
+        height: 500px;
+        margin-bottom: 10px;
+    }
+
+    .bacg {
+        border-radius: 16px;
+        width: 335px;
+        height: 500px;
+    }
+
+    .imgbgt {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 8%;
+        top: 10%;
+
+        background-color: #ffffff87;
+        width: 200px;
+        border-radius: 16px;
+        padding: 40px;
+        font-family: Mulish;
+        font-size: 12pz;
+    }
+
+    .ddtext {
+        display: flex;
+        gap: 15px;
+    }
+
+    .tourt6 {
+        color: #ff5400;
+    }
+
+    .tbutton {
+        border-radius: 5px;
+        border-color: #ff5400;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+
+
+
+    .imgbgt1 {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 8%;
+        top: 10%;
+
+        background-color: #ffffff87;
+        width: 200px;
+        border-radius: 16px;
+        padding: 40px;
+        font-family: Mulish;
+        font-size: 12pz;
+
+    }
+}
+
+
+.videoc{
+    display: flex;
+    background-color: #FFF;
+    background: #FFF;
+    margin: auto;
+    width: 1170px;
+
+    max-width: 1200px;
+}
+
+.ttt1{
+    color: #131318;
+font-family: Mulish;
+width: 448px;
+}
+
+.video{
+    border-radius: 16pz;
+    width: 610px;
+height: 424px;
+flex-shrink: 0;
+}
+
+@media screen and (max-width:600px) {
+    .videoc{
+        display: flex;
+        flex-direction: column;
+        background: #FFF;
+        margin: auto;
+        width: 335px;
+        height: 500px;
+    }
+    
+    .ttt1{
+        color: #131318;
+    font-family: Mulish;
+    width: 335px;
+    }
+    
+    .video{
+        width: 335px;
+        height: 200px;
+        flex-shrink: 0;
+    }
+}
+
+.footer{
+    background-color: antiquewhite;
+    text-align: center;
 }
